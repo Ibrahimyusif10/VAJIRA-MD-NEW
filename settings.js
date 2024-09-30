@@ -11,7 +11,7 @@ ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GR
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
 PREFIX: process.env.PREFIX || '.' ,
-FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
+FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 𓆩ᴀʙʙᴀ𓆪 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
 MAX_SIZE: 500, 
 ALIVE:  process.env.ALIVE  || ''  ,    
